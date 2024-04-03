@@ -1,3 +1,6 @@
+## 4.0.2 (local)
+* fix(iOS): Return true in NSUserActivityTypeBrowsingWeb to indicate that app links handled the activity (opened PR: https://github.com/llfbandit/app_links/pull/111)
+
 ## 4.0.1
 * fix(Android): Reworked capture by explicitly discarding `ACTION_SEND*` and let other basic actions succeed (NFC for example).
 
